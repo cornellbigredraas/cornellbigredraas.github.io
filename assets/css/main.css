@@ -17,20 +17,6 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-	.k {
-		position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	}
-	.l {
-		position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
