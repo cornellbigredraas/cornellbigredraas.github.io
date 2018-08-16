@@ -18,10 +18,18 @@
 		vertical-align: baseline;
 	}
 	.k {
-		margin: auto;
+		position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 	}
 	.l {
-		margin:auto;
+		position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
