@@ -17,8 +17,11 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-	iframe {
+	.k {
 		margin: auto;
+	}
+	.l {
+		margin:auto;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
