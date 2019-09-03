@@ -1,2 +1,2 @@
 # cornellbigredraas.github.io
-wholesome 2018
+2019 update
