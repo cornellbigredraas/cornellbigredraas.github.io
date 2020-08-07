@@ -195,6 +195,11 @@ div ul {
 	text-align: center;
 }
 
+#ihatephones {
+	width: 50%;
+	height: 600px;
+}
+
 @media(max-width:60em) {
 	nav {
 		display: none;
@@ -209,6 +214,11 @@ div ul {
 
 	h1 img {
 		height: 30px;
+	}
+
+	#ihatephones {
+		width: 100%;
+		height: 550px;
 	}
     
 }
