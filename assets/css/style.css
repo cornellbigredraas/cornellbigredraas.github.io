@@ -183,6 +183,18 @@ div ul {
 	flex: 6;
 }
 
+#video {
+	padding: 10px;
+	display: flex;
+	width: 100%;
+	height: 400px;
+}
+
+#video iframe {
+	flex: 1;
+	margin: 30px;
+}
+
 #events {
 	padding: 40px;
 	padding-top: 120px;
@@ -220,6 +232,10 @@ div ul {
 		width: 100%;
 		height: 550px;
 	}
-    
+
+	#video {
+		flex-direction: column;
+		height: 100%;
+	}
 }
 
