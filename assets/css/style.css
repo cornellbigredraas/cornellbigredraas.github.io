@@ -9,7 +9,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,33 +21,29 @@ header {
 	position: fixed;
 	z-index: 3;
 	width: 100%;
-	left: 0;
-	top: 0;
 	display: flex;
 	background-color: black;
 	color: white;
 	opacity: 80%;
-	padding: 10px;
-	padding-left: 50px;
-	backdrop-filter: blur(10px);
+	padding-left: 1%;
 }
 
 header h1 {
 	font-weight: bold;
-	font-size: 20px;
-	padding-top: 15px;
+	font-size: 20pt;
+	padding-top: 1em;
 }
+
 
 header nav ul li {
 	font-size: 16px;
-	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-top: 1.5em;
 }
 
 h1 img {
 	display: inline;
 	vertical-align: middle;
-	width: 30px;
+	width: 1em;
 }
 
 nav {
@@ -90,7 +86,7 @@ nav li a {
 }
 
 nav li:hover {
-	transform: scale(0.9);
+	transform: scale(0.99);
 }
 
 .social a i {
@@ -128,7 +124,7 @@ h1 {
 	overflow: hidden;
 }
 
-.video-container video {
+.video-container img {
 	min-width: 100%;
 	min-height: 100%;
   position: absolute;
@@ -245,7 +241,6 @@ div ul {
 	padding: 10px;
 	display: flex;
 	width: 100%;
-	height: 400px;
 }
 
 #video iframe {
@@ -300,11 +295,6 @@ div ul {
 	opacity: 0.6;
 }
 
-#ihatephones {
-	width: 50%;
-	height: 600px;
-}
-
 @media(max-width:70em) {
 	#video {
 		flex-direction: column;
@@ -317,20 +307,13 @@ div ul {
 		display: none;
 	}
 
+	header {
+		text-align: center;
+	}
+
 	header h1 {
 		font-weight: bold;
-		font-size: 40px;
-		line-height: 1.2;
-		margin: 15px;
-	}
-
-	h1 img {
-		height: 30px;
-	}
-
-	#ihatephones {
-		width: 100%;
-		height: 550px;
+		font-size: 20px;
 	}
 
 	#tryouts ul {
