@@ -36,8 +36,8 @@ header h1 {
 
 
 header nav ul li {
-	font-size: 25px;
-	padding-top: 1.5em;
+	font-size: 22px;
+	padding-top: 1.25em;
 }
 
 h1 img {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .logo {
-	flex: 5;
+	flex: 10;
 }
 
 .showcase {
