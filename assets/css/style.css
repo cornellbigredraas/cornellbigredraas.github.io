@@ -75,7 +75,7 @@ nav ul {
 }
 
 nav li {
-	flex: 1;
+	flex: 5;
 	text-decoration: none;
 	list-style-type: none;
 }
