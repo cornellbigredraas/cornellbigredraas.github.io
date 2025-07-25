@@ -279,6 +279,10 @@ div ul {
 	text-align: center;
 }
 
+#statement {
+	color: #9c9c9c;
+}
+
 #footer {
 	background-color: #F4F4F4;
 	padding: 20px;
